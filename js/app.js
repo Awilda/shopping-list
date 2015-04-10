@@ -3,8 +3,8 @@ $(document).ready(function() {
       var toAdd = $("input[name=additems]").val();
         $('#items').append("<p>"+toAdd+"</p>");
 
-    $("#items").click(function(){
-      $("#items p:first-child").remove();
+    $(".items").click(function(){
+      $(".items").remove();
 
         });
     });
