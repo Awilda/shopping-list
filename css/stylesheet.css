@@ -1,5 +1,5 @@
 body {
-	background-image: url(c:/users/juan/projects/Shopping-List/images/Greens.jpg);
+	background-image: url(http://i15.photobucket.com/albums/a385/skatergirl117/Greens_zpsihsebsbx.jpg);
 	background-position: center fixed;
 	height: 30rem;
 	width: 50rem;
@@ -32,8 +32,8 @@ h2 {
 	color: white;
 	position: absolute;
 	left: 45%;
-	margin-top: 2rem;
-	font-size: 4rem;
+	margin-top: 5rem;
+	font-size: 20em;
 	font-family: 'Rancho', cursive;
 	text-shadow: 0.10rem 0.10rem #A37B45;
 	border-style: solid;	
@@ -41,7 +41,7 @@ h2 {
 h4 {
 	color: white;
 	position: absolute;
-	left: 40%;
+	/*left: 40%;*/
 	margin-top: 6rem;
 	font-size: 1.5rem;
 	font-family: 'Rancho', cursive;
@@ -51,18 +51,19 @@ h5 {
 	color: white;
 	position: absolute;
 	left: 40%;
-	margin-top: 7.5rem;
+	margin-top: 10rem;
 	font-size: 1.5rem;
 	font-family: 'Rancho', cursive;
 	color: white;
 }
-.items {
+p {
 	color: white;
 	position: relative;
-	left: 40hhfrc-=%;
+	left: 40%;
 	font-size: 2rem;
 	font-family: 'Rancho', cursive;
 	text-shadow: 0.10rem 0.10rem #A37B45;
 	border-style: solid;
 	margin: 0.5em 2rem;
+	cursor: pointer;
 }
