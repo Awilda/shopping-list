@@ -1,11 +1,12 @@
 $(document).ready(function() {
-    $('button').click(function() {
+    $('#add').click(function() {
       var toAdd = $("input[name=additems]").val();
-        $('#items').append("<p>"+toAdd+"</p>");
+        $('#items').append("<p class='items'>"+toAdd+"</p>");
 
-    $(".items").click(function(){
-      $(".items").remove();
+    $('.items').click(function(){
+      $(this).remove();
 
         });
+return false;
     });
 });
